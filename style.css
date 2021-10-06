@@ -1,0 +1,129 @@
+/*<style text="text/css">*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav-style{
+    background-color: rgba(210, 233, 233, 0.632)!important;
+}
+.nav-style a{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400!important;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-size: 30px!important;
+    color: black;
+}
+.main-header{
+    height: 450px;
+    width: 100%;
+}
+.rightside {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside h1{
+    font-size: 2rem;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.data-container h1, h2 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 200%;
+}
+
+.title {
+	background: linear-gradient(to right, #d3e4e3, #5ffcff);
+	padding: 20px;
+    text-align: center;
+}
+
+.subtitle {
+	padding: 20px;
+	font-size: 150%;
+}
+
+div {
+	padding: 20px;
+}
+
+
+.container {
+	border: 5px solid  rgba(140, 236, 236, 0.755);
+
+
+}
+.container h1{
+    text-align: center;
+    font-size: 2rem;
+}
+h4 {
+	font-size: 1.2rem;
+ 	color: gray;
+ 	font-family: 'Roboto', sans-serif;
+ 	font-weight: 300;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	padding-left: 20px;
+ 	padding-right: 20px;
+ 	padding-bottom: 5px;
+}
+
+#corona-rot{
+    animation: corona 3s linear infinite;
+}
+@keyframes corona{
+    0%{ transform: rotate(0); }
+    100% { transform: rotate(360deg); }
+    
+}
+.leftside img{
+    animation: heartbeat 5s linear infinite;
+} 
+@keyframes heartbeat{
+    0%{ transform: scale(0.75);}
+    20%{transform: scale(1);}
+    40%{ transform: scale(0.75);}
+    60%{transform: scale(1);}
+    80%{transform: scale(0.75);}
+    100%{transform: scale(1);}
+     
+}
+
+
+.foot{
+
+    background-color: black;
+    color: white;
+}
+.foot h3{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*@media (min-width:400) {
+    .rightside h1{
+        font-size: 2.5rem;
+        padding: 20px;
+        margin: 10px;
+    }
+}*/
+
+
+
+
+
