@@ -4,9 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-html{
-    scroll-behavior: smooth;
-}
+
 .nav-style{
     background-color: rgba(210, 233, 233, 0.632)!important;
 }
@@ -35,8 +33,6 @@ html{
     padding: 20px;
     margin: 10px;
 }
-
-
 .data-container h1, h2 {
 	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
@@ -115,13 +111,6 @@ h4 {
 }
 
 
-/*@media (min-width:400) {
-    .rightside h1{
-        font-size: 2.5rem;
-        padding: 20px;
-        margin: 10px;
-    }
-}*/
 
 
 
